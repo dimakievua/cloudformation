@@ -1,0 +1,17 @@
+---
+global:
+  owner: dimakievua@gmail.com
+  qsname: Sample-VPC-creation
+  regions:
+    - eu-central-1
+    - eu-west-1
+    - us-east-1
+    - us-west-1
+    - us-west-2
+  reporting: true
+tests:
+  taskcat-json:
+    parameter_input: debug-input.json
+    regions:
+      - eu-west-1
+    template_file: amazon-eks-vpc-sample.yml
