@@ -14,4 +14,4 @@ tests:
     parameter_input: debug-input.json
     regions:
       - eu-west-1
-    template_file: amazon-eks-vpc-sample.yml
+    template_file: amazon-eks-vpc-sample.yaml
