@@ -1,7 +1,7 @@
 ---
 global:
   owner: dimakievua@gmail.com
-  qsname: Sample-VPC-creation
+  qsname: cloudformation
   regions:
     - eu-central-1
     - eu-west-1
