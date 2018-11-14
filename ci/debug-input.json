@@ -1,50 +1,18 @@
 [
     {
-        "ParameterKey": "AvailabilityZones",
-        "ParameterValue": "$[taskcat_genaz_3]"
+        "ParameterKey": "VpcBlock",
+        "ParameterValue": "10.0.0.0/16"
     },
     {
-        "ParameterKey": "StackName",
-        "ParameterValue": "TestStack"
+        "ParameterKey": "Subnet01Block",
+        "ParameterValue": "10.0.1.0/24"
     },
     {
-        "ParameterKey": "ByteValue",
-        "ParameterValue": 1
+        "ParameterKey": "Subnet02Block",
+        "ParameterValue": "10.0.2.0/24"
     },
     {
-        "ParameterKey": "UUID",
-        "ParameterValue": "$[taskcat_genuuid]"
-    },
-    {
-        "ParameterKey": "RandomNumber",
-        "ParameterValue": "$[taskcat_random-numbers]"
-    },
-    {
-        "ParameterKey": "RandomString",
-        "ParameterValue": "$[taskcat_random-string]"
-    },
-    {
-        "ParameterKey": "UUID",
-        "ParameterValue": "$[taskcat_genuuid]"
-    },
-    {
-        "ParameterKey": "PasswordA",
-        "ParameterValue": "$[taskcat_genpass_8A]"
-    },
-    {
-        "ParameterKey": "PasswordAConfirm",
-        "ParameterValue": "$[taskcat_getval_PasswordA]"
-    },
-    {
-        "ParameterKey": "PasswordB",
-        "ParameterValue": "$[taskcat_genpass_32S]"
-    },
-    {
-        "ParameterKey":"LocalOverrideTest",
-        "ParameterValue":"override"
-    },
-    {
-        "ParameterKey":"GlobalOverrideTest",
-        "ParameterValue":"override"
+        "ParameterKey": "Subnet03Block",
+        "ParameterValue": "10.0.3.0/24"
     }
 ]
