@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: 'Amazon EKS Sample VPC'
+Description: 'Amazon EKS Sample VPC. Will be used here for TestCat and EKS'
 
 Parameters:
 
