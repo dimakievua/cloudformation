@@ -24,6 +24,10 @@
         "ParameterValue": "test-stack-configuration.json"
     },
     {
+        "ParameterKey": "ProdStackConfig",
+        "ParameterValue": "prod-stack-configuration.json"
+    }, 
+    {
         "ParameterKey": "Email",
         "ParameterValue": "dmytro_zhernosiekov@epam.com"
     }

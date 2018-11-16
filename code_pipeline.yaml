@@ -43,7 +43,7 @@ Parameters:
     Description: The configuration file name for the test WordPress stack
     Type: String
   ProdStackName:
-    Default: Prod-Env
+    Default: ProdEnv
     Description: A name for the production WordPress stack
     Type: String
   ProdStackConfig:
