@@ -17,7 +17,11 @@
     },
     {
         "ParameterKey": "TemplateFileName",
-        "ParameterValue": "template/amazon-eks-vpc-sample.yaml"
+        "ParameterValue": "templates/amazon-eks-vpc-sample.yaml"
+    },
+    {
+        "ParameterKey": "TestStackConfig",
+        "ParameterValue": "test-stack-configuration.json"
     },
     {
         "ParameterKey": "Email",
