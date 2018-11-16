@@ -17,6 +17,7 @@ Step 2. Set Up Your GitHub Token and Collect Your Information
 - GitHub repository name – This repository should have the folder structure and files described earlier in the Prerequisites section.
 - Source branch name – This is the branch that CodePipeline should monitor for any changes.
 - Release branch name – This is the branch that the source branch will be merged into after a successful test.
+<<<<<<< HEAD
 You will be prompted for this information when you launch the Quick Start.
 
 
@@ -41,3 +42,6 @@ GitHubUser	dimakievua	GitHub user	Credentials-GitHubUser
 
 aws.cmd cloudformation validate-template --template-body file://code_pipeline.yaml
 aws.cmd cloudformation create-stack --stack-name Infrastructure --template-body file://code_pipeline.yaml --parameters file://test_pipeline.json --capabilities CAPABILITY_IAM
+=======
+You will be prompted for this information when you launch the Quick Start.
+>>>>>>> Fix YAML syntax errors
