@@ -273,9 +273,7 @@ Resources:
               commands:
                 - echo Entered the build phase...
                 - echo File is ${TemplateFileName}
-                - yamllint amazon-eks-vpc-sample.yaml
                 - yamllist $(ls | xargs)
-                - yamllint ${TemplateFileName}
 
   CodeBuildServiceRole:
     Type: 'AWS::IAM::Role'
