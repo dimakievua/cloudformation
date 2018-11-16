@@ -79,11 +79,9 @@ Resources:
     Metadata:
       Comment: Subnet 01
     Properties:
-      AvailabilityZone:
-        Fn::Select:
-          - '0'
-          - Fn::GetAZs:
-            Ref: AWS::Region
+      AvailabilityZone: !Select
+        - 0
+        - Fn::GetAZs: !Ref 'AWS::Region'
       CidrBlock:
         Ref: Subnet01Block
       VpcId:
@@ -97,11 +95,9 @@ Resources:
     Metadata:
       Comment: Subnet 02
     Properties:
-      AvailabilityZone:
-        Fn::Select:
-          - '1'
-          - Fn::GetAZs:
-            Ref: AWS::Region
+      AvailabilityZone: !Select
+        - 1
+        - Fn::GetAZs: !Ref 'AWS::Region'
       CidrBlock:
         Ref: Subnet02Block
       VpcId:
@@ -115,11 +111,9 @@ Resources:
     Metadata:
       Comment: Subnet 03
     Properties:
-      AvailabilityZone:
-        Fn::Select:
-          - '2'
-          - Fn::GetAZs:
-            Ref: AWS::Region
+      AvailabilityZone: !Select
+        - 2
+        - Fn::GetAZs: !Ref 'AWS::Region'
       CidrBlock:
         Ref: Subnet03Block
       VpcId:
