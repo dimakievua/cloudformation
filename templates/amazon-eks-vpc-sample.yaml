@@ -147,17 +147,22 @@ Resources:
       VpcId: !Ref VPC
 
 Outputs:
-
   SubnetIds:
     Description: All subnets in the VPC
     Value: !Join [",", [!Ref Subnet01, !Ref Subnet02, !Ref Subnet03]]
+    Export:
+      Name: !Sub "${AWS::StackName}-SubnetIds"
 
   SecurityGroups:
     Description: >
       Security group for the cluster control
       plane communication with worker nodes.
     Value: !Join [",", [!Ref ControlPlaneSecurityGroup]]
+    Export:
+      Name: !Sub "${AWS::StackName}-SecurityGroups"
 
   VpcId:
     Description: The VPC Id
     Value: !Ref VPC
+    Export:
+      Name: !Sub "${AWS::StackName}-VpcId"
