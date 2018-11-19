@@ -21,11 +21,11 @@
     },
     {
         "ParameterKey": "TestStackConfig",
-        "ParameterValue": "test-stack-configuration.json"
+        "ParameterValue": "service/test-stack-configuration.json"
     },
     {
         "ParameterKey": "ProdStackConfig",
-        "ParameterValue": "prod-stack-configuration.json"
+        "ParameterValue": "service/prod-stack-configuration.json"
     }, 
     {
         "ParameterKey": "Email",

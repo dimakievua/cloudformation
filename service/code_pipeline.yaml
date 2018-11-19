@@ -39,20 +39,20 @@ Parameters:
     Description: A name for the test WordPress stack
     Type: String
   TestStackConfig:
-    Default: test-pipeline.json
-    Description: The configuration file name for the test WordPress stack
+    Default: service/test-stack-configuration.json
+    Description: The configuration file name for my stack
     Type: String
   ProdStackName:
     Default: ProdEnv
-    Description: A name for the production WordPress stack
+    Description: A name for the production my stack
     Type: String
   ProdStackConfig:
-    Default: prod-pipeline.json
-    Description: The configuration file name for the production WordPress stack
+    Default: service/test-stack-configuration.json
+    Description: The configuration file name for the production my stack
     Type: String
   ChangeSetName:
     Default: UpdatePreview
-    Description: A name for the production WordPress stack change set
+    Description: A name for the production my stack change set
     Type: String
   Email:
     Description: The email address where CodePipeline sends pipeline notifications
