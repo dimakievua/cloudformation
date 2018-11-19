@@ -1,0 +1,34 @@
+[
+    {
+        "ParameterKey": "GitHubRepoName",
+        "ParameterValue": "cloudformation"
+    },
+    {
+        "ParameterKey": "SourceRepoBranch",
+        "ParameterValue": "release"
+    },
+    {
+        "ParameterKey": "PipelineName",
+        "ParameterValue": "Infrastructure"
+    },
+    {
+        "ParameterKey": "S3Bucket",
+        "ParameterValue": "pipeline-artifacts"
+    },
+    {
+        "ParameterKey": "TemplateFileName",
+        "ParameterValue": "templates/amazon-eks-vpc-sample.yaml"
+    },
+    {
+        "ParameterKey": "TestStackConfig",
+        "ParameterValue": "test-stack-configuration.json"
+    },
+    {
+        "ParameterKey": "ProdStackConfig",
+        "ParameterValue": "prod-stack-configuration.json"
+    }, 
+    {
+        "ParameterKey": "Email",
+        "ParameterValue": "dmytro_zhernosiekov@epam.com"
+    }
+]
