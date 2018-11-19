@@ -1,10 +1,14 @@
 {
   "Parameters" : {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "VpcBlock" : "10.0.0.0/16B",
 =======
     "VpcBlock" : "10.0.0.0/16",
 >>>>>>> Add correct test stack configuration
+=======
+    "VpcBlock" : "10.0.0.0/16",
+>>>>>>> a73f642872ebb125c657e0ca719511def346770d
     "Subnet01Block" : "10.0.1.0/24",
     "Subnet02Block" : "10.0.2.0/24",
     "Subnet03Block" : "10.0.3.0/24"
