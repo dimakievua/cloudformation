@@ -4,6 +4,10 @@
         "ParameterValue": "cloudformation"
     },
     {
+        "ParameterKey": "GitHubUser",
+        "ParameterValue": "dimakievua"
+    },    
+    {
         "ParameterKey": "SourceRepoBranch",
         "ParameterValue": "release"
     },
